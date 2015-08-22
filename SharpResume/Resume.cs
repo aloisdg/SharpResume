@@ -7,9 +7,9 @@ namespace SharpResume
 	public class Resume
 	{
 		public Basics Basics { get; set; }
-		public Work[] Work { get; set; }
-		public Volunteer[] Volunteer { get; set; }
-		public Education[] Education { get; set; }
+		public Work[] Works { get; set; }
+		public Volunteer[] Volunteers { get; set; }
+		public Education[] Educations { get; set; }
 		public Award[] Awards { get; set; }
 		public Publication[] Publications { get; set; }
 		public Skill[] Skills { get; set; }
