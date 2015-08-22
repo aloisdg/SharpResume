@@ -47,3 +47,10 @@ All pull requests are welcome !
 ## License
 
 SharpResume uses the MIT license. See LICENSE for more details.
+
+## Misc
+
+You way want to check this projects:
+
+- [sharpresume](https://code.google.com/p/sharpresume/) - #Résumé is a C# implementation of the HR-XML Consortium's standard resume. [mirror](https://github.com/elevate/sharpresume)
+- [ResumeSharp](https://resumesharp.codeplex.com/) - ResumeSharp is a resume building tool designed to help keep your resume up-to-date easily. Additionally, you can quickly generate targeted resumes on the fly.
