@@ -48,35 +48,41 @@ namespace SharpResume
 		public string Url { get; set; }
 	}
 
-	public class Work
+	public interface IDateable
+	{
+		DateTime Start { get; set; }
+		DateTime End { get; set; }
+	}
+
+	public abstract class ADateable : IDateable
+	{
+		public DateTime Start { get; set; }
+		public DateTime End { get; set; }
+	}
+
+	public class Work : ADateable
 	{
 		public string Company { get; set; }
 		public string Position { get; set; }
 		public string Website { get; set; }
-		public string StartDate { get; set; }
-		public string EndDate { get; set; }
 		public string Summary { get; set; }
 		public string[] Highlights { get; set; }
 	}
 
-	public class Volunteer
+	public class Volunteer : ADateable
 	{
 		public string Organization { get; set; }
 		public string Position { get; set; }
 		public string Website { get; set; }
-		public string StartDate { get; set; }
-		public string EndDate { get; set; }
 		public string Summary { get; set; }
 		public string[] Highlights { get; set; }
 	}
 
-	public class Education
+	public class Education : ADateable
 	{
 		public string Institution { get; set; }
 		public string Area { get; set; }
 		public string StudyType { get; set; }
-		public string StartDate { get; set; }
-		public string EndDate { get; set; }
 		public string Gpa { get; set; }
 		public string[] Courses { get; set; }
 	}
@@ -84,7 +90,7 @@ namespace SharpResume
 	public class Award
 	{
 		public string Title { get; set; }
-		public string Date { get; set; }
+		public DateTime Date { get; set; }
 		public string Awarder { get; set; }
 		public string Summary { get; set; }
 	}
@@ -93,7 +99,7 @@ namespace SharpResume
 	{
 		public string Name { get; set; }
 		public string Publisher { get; set; }
-		public string ReleaseDate { get; set; }
+		public DateTime Release { get; set; }
 		public string Website { get; set; }
 		public string Summary { get; set; }
 	}
