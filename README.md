@@ -3,7 +3,7 @@ SharpResume is a C# PCL for [JSONResume](https://jsonresume.org/). JSONResume is
 
 ## Demo
 
-[![Demo SharpResume]()]()
+[![Demo SharpResume](http://i.imgur.com/Wq1d83v.png)](http://i.imgur.com/Wq1d83v.png)
 
 ## Support
 
