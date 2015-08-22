@@ -1,4 +1,6 @@
-﻿using SharpResume.Model;
+﻿using System.Linq.Expressions;
+using Newtonsoft.Json;
+using SharpResume.Model;
 
 namespace SharpResume
 {
@@ -14,5 +16,10 @@ namespace SharpResume
 		public Language[] Languages { get; set; }
 		public Interest[] Interests { get; set; }
 		public Reference[] References { get; set; }
+
+		public static Resume Create(string json)
+		{
+			return JsonConvert.DeserializeObject<Resume>(json);
+		}
 	}
 }
