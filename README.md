@@ -3,9 +3,9 @@ SharpResume is a C# PCL for [JSONResume](https://jsonresume.org/). JSONResume de
 
 > The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
 
-You can find the project on [GitHub](https://github.com/jsonresume/resume-schema).
+You can find the project JSONResume on [GitHub](https://github.com/jsonresume/resume-schema).
 
-Get the last release on [NuGet](https://www.nuget.org/packages/SharpResume/) or on [GitHub](https://github.com/aloisdg/SharpResume/releases).
+Get the last release of SharpResume on [NuGet](https://www.nuget.org/packages/SharpResume/) or on [GitHub](https://github.com/aloisdg/SharpResume/releases).
 
 ## Demo
 
