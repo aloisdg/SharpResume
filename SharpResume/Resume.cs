@@ -107,7 +107,7 @@ namespace SharpResume
 
 	public class Language
 	{
-		public string language { get; set; }
+		public string Name { get; set; }
 		public string Fluency { get; set; }
 	}
 
@@ -120,7 +120,7 @@ namespace SharpResume
 	public class Reference
 	{
 		public string Name { get; set; }
-		public string reference { get; set; }
+		public string Comment { get; set; }
 	}
 
 }
