@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SharpResume")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("SharpResume is a C# PCL for JSONResume.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SharpResume")]
