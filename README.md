@@ -49,7 +49,7 @@ All pull requests are welcome!
 
 ## License
 
-SharpResume uses the MIT license. See LICENSE for more details.
+SharpResume uses the MIT license. See [LICENSE](https://github.com/aloisdg/SharpResume/blob/master/License) for more details.
 
 ## Misc
 
