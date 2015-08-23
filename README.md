@@ -38,11 +38,12 @@ Use [GitHub Issues](https://github.com/aloisdg/SharpResume/issues) for all of th
 
 ## Contributing
 
-1. Fork the project.
-2. Create a branch for your new feature.
+0. Talk about your feature on [issues](https://github.com/aloisdg/SharpResume/issues) .
+1. [Fork the project](https://help.github.com/articles/fork-a-repo/).
+2. Create a branch for your awesome feature.
 3. Write tests.
 4. Write code to make the tests pass.
-5. Submit a pull request.
+5. [Submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 All pull requests are welcome !
 
