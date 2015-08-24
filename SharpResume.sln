@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpResume", "SharpResume\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpResumeSample", "SharpResumeSample\SharpResumeSample.csproj", "{E18704E1-FA85-4197-A199-36AD31F97FE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpResume.Tests", "SharpResume.Tests\SharpResume.Tests.csproj", "{8AD716DB-2614-425C-95D6-79074C0EB4A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E18704E1-FA85-4197-A199-36AD31F97FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E18704E1-FA85-4197-A199-36AD31F97FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E18704E1-FA85-4197-A199-36AD31F97FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD716DB-2614-425C-95D6-79074C0EB4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD716DB-2614-425C-95D6-79074C0EB4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD716DB-2614-425C-95D6-79074C0EB4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD716DB-2614-425C-95D6-79074C0EB4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
