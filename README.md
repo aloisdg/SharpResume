@@ -1,9 +1,15 @@
 # SharpResume
-SharpResume is a C# PCL for [JSONResume](https://jsonresume.org/). JSONResume is Open Source. You can find the project on [GitHub](https://github.com/jsonresume/resume-schema).
+SharpResume is a C# PCL for [JSONResume](https://jsonresume.org/). JSONResume defines itself as:
+
+> The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
+
+You can find the project JSONResume on [GitHub](https://github.com/jsonresume/resume-schema).
+
+Get the last release of SharpResume on [NuGet](https://www.nuget.org/packages/SharpResume/) or on [GitHub](https://github.com/aloisdg/SharpResume/releases).
 
 ## Demo
 
-[![Demo SharpResume]()]()
+[![Demo SharpResume](http://i.imgur.com/Wq1d83v.png)](http://i.imgur.com/Wq1d83v.png)
 
 ## Support
 
@@ -32,14 +38,22 @@ Use [GitHub Issues](https://github.com/aloisdg/SharpResume/issues) for all of th
 
 ## Contributing
 
-1. Fork the project.
-2. Create a branch for your new feature.
+0. Talk about your feature on [issues](https://github.com/aloisdg/SharpResume/issues).
+1. [Fork the project](https://help.github.com/articles/fork-a-repo/).
+2. Create a branch for your awesome feature.
 3. Write tests.
 4. Write code to make the tests pass.
-5. Submit a pull request.
+5. [Submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
-All pull requests are welcome !
+All pull requests are welcome!
 
 ## License
 
-SharpResume uses the MIT license. See LICENSE for more details.
+SharpResume uses the MIT license. See [LICENSE](https://github.com/aloisdg/SharpResume/blob/master/License) for more details.
+
+## Misc
+
+You way want to check this projects:
+
+- [sharpresume](https://code.google.com/p/sharpresume/) - #Résumé is a C# implementation of the HR-XML Consortium's standard resume. [mirror](https://github.com/elevate/sharpresume)
+- [ResumeSharp](https://resumesharp.codeplex.com/) - ResumeSharp is a resume building tool designed to help keep your resume up-to-date easily. Additionally, you can quickly generate targeted resumes on the fly.
