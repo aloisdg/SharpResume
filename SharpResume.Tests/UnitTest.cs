@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using SharpResume.Model;
-using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+using Assert = NUnit.Framework.Assert;
 
 namespace SharpResume.Tests
 {
-	[TestClass]
+	[TestFixture]
 	public class UnitTest
 	{
 		const string JsonName = "resume.json";
@@ -21,14 +17,14 @@ namespace SharpResume.Tests
 		readonly Resume _resume = Resume.Create(_json);
 		readonly dynamic _expected = JObject.Parse(_json);
 
-		[TestMethod]
+		[Test]
 		public void TestName()
 		{
 			string name = _expected.basics.name;
 			Assert.AreEqual(name, _resume.Basics.Name);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestCoursesCount()
 		{
 			var educations = _expected.education.ToObject<List<Education>>();
