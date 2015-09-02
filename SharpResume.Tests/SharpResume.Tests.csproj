@@ -44,9 +44,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\NUnit.3.0.0-beta-3\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="SharpResume">
-      <HintPath>..\packages\SharpResume.1.0.0\lib\SharpResume.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -68,6 +65,12 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="resume.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpResume\SharpResume.csproj">
+      <Project>{c207a6eb-840f-4501-87b3-029ad9c9a212}</Project>
+      <Name>SharpResume</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

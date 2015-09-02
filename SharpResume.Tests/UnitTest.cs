@@ -30,5 +30,13 @@ namespace SharpResume.Tests
 			var educations = _expected.education.ToObject<List<Education>>();
 			Assert.AreEqual(educations.Count, _resume.Education.Length);
 		}
+
+		[Test]
+		public void TestEquals()
+		{
+			var e1 = new Resume { Basics = new Basics { Name = "Alois" } };
+			var e2 = new Resume { Basics = new Basics { Name = "Alois" } };
+			Assert.AreEqual(e1, e2);
+		}
 	}
 }
