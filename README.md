@@ -1,4 +1,5 @@
 # SharpResume
+
 SharpResume is a C# PCL for [JSONResume](https://jsonresume.org/). JSONResume defines itself as:
 
 > The open source initiative to create a JSON-based standard for resumes. For developers, by developers.
@@ -26,10 +27,6 @@ _[learn more](https://jsonresume.org/schema/)_
 * All *Date are called * and I change their type from `string` to `DateTime`.
   * Award's Date keeps his name.
 
-## Feature Done v0.2.1
-
-_soon ..._
-
 ## Bug Reports & Feature Requests
 
 You can help by reporting bugs, suggesting features, reviewing feature specifications or just by sharing your opinion.
@@ -51,7 +48,7 @@ All pull requests are welcome!
 
 SharpResume uses the MIT license. See [LICENSE](https://github.com/aloisdg/SharpResume/blob/master/License) for more details.
 
-## Misc
+## Miscs
 
 You way want to check this projects:
 
